@@ -7939,7 +7939,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:hnaderi-toslink-rx"
 			(at 124.46 143.51 0)
 			(effects
 				(font

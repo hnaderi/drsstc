@@ -7614,21 +7614,19 @@
 		(fields_autoplaced yes)
 		(uuid "0626f6b7-dbd1-4b56-93f7-083dcd1c2dc8")
 		(property "Reference" "J4"
-			(at 31.75 126.9999 0)
+			(at 33.655 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "Current Transformer"
-			(at 31.75 129.5399 0)
+		(property "Value" "OCD CT"
+			(at 33.655 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
@@ -8961,7 +8959,7 @@
 				)
 			)
 		)
-		(property "Value" "Current Transformer"
+		(property "Value" "Feedback CT"
 			(at 23.495 39.37 0)
 			(effects
 				(font
@@ -12491,7 +12489,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 53.34 179.705 0)
 			(effects
 				(font
@@ -12502,7 +12500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+		(property "Datasheet" ""
 			(at 48.26 177.8 0)
 			(effects
 				(font
@@ -12512,7 +12510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
+		(property "Description" ""
 			(at 48.26 177.8 0)
 			(effects
 				(font

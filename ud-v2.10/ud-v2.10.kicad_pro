@@ -500,7 +500,16 @@
       "Net-(J13-Pin_2)": [
         "Power"
       ],
+      "Net-(J6-Pin_1)": [
+        "Critical"
+      ],
+      "Net-(J6-Pin_2)": [
+        "Critical"
+      ],
       "Net-(Q2-D)": [
+        "Critical"
+      ],
+      "Net-(Q6-D)": [
         "Critical"
       ],
       "VDC": [

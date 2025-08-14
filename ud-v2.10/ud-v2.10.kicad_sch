@@ -7078,7 +7078,7 @@
 	)
 	(global_label "DRV2"
 		(shape output)
-		(at 273.05 106.68 0)
+		(at 273.05 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7088,7 +7088,7 @@
 		)
 		(uuid "64ac7d2c-4862-49f3-8513-e1e9b46ccf52")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 280.8733 106.68 0)
+			(at 280.8733 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7188,7 +7188,7 @@
 	)
 	(global_label "DRV1"
 		(shape output)
-		(at 273.05 80.01 0)
+		(at 273.05 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7198,7 +7198,7 @@
 		)
 		(uuid "8ed05b89-405c-4208-85e8-5549693a3187")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 280.8733 80.01 0)
+			(at 280.8733 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7374,7 +7374,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 82efb7da-31e6-4b02-8a40-49efd5c362ac)
+			(uuid 351b04a7-eeb4-48fb-a913-b09688828c95)
 		)
 	)
 	(netclass_flag ""
@@ -9836,7 +9836,7 @@
 	)
 	(symbol
 		(lib_id "components:7408")
-		(at 260.35 106.68 0)
+		(at 260.35 80.01 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9845,7 +9845,7 @@
 		(fields_autoplaced yes)
 		(uuid "535c460d-6c38-4634-a512-fd69593e6e22")
 		(property "Reference" "U3"
-			(at 270.51 100.2598 0)
+			(at 270.51 73.5898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9853,7 +9853,7 @@
 			)
 		)
 		(property "Value" "7408"
-			(at 270.51 102.7998 0)
+			(at 270.51 76.1298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9861,7 +9861,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 260.35 106.68 0)
+			(at 260.35 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9870,7 +9870,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 106.68 0)
+			(at 260.35 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9879,7 +9879,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 260.35 106.68 0)
+			(at 260.35 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14409,7 +14409,7 @@
 	)
 	(symbol
 		(lib_id "components:7408")
-		(at 260.35 80.01 0)
+		(at 260.35 106.68 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14418,7 +14418,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf5477bf-4191-47c9-83cf-0c8fb77405ea")
 		(property "Reference" "U3"
-			(at 270.51 73.5898 0)
+			(at 270.51 100.2598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14426,7 +14426,7 @@
 			)
 		)
 		(property "Value" "7408"
-			(at 270.51 76.1298 0)
+			(at 270.51 102.7998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14434,7 +14434,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 260.35 80.01 0)
+			(at 260.35 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14443,7 +14443,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 80.01 0)
+			(at 260.35 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14452,7 +14452,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 260.35 80.01 0)
+			(at 260.35 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)

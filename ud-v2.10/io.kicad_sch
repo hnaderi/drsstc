@@ -3230,7 +3230,7 @@
 	)
 	(global_label "OCD_STATUS"
 		(shape input)
-		(at 86.36 36.83 180)
+		(at 86.36 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3240,7 +3240,7 @@
 		)
 		(uuid "39aca092-fcfc-4e38-945d-1b2b0dce91aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.7634 36.83 0)
+			(at 80.4719 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3296,7 +3296,7 @@
 	)
 	(global_label "INT"
 		(shape input)
-		(at 86.36 34.29 180)
+		(at 86.36 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3306,7 +3306,7 @@
 		)
 		(uuid "9a007b89-33fa-4395-a765-73bb5ecf5126")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.4719 34.29 0)
+			(at 71.7634 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3416,7 +3416,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 2f54c6ca-4de3-488b-8e73-247f77cb4d5e)
+			(uuid 213a49c9-1d0e-4e30-a199-30e390679b6d)
 		)
 	)
 	(netclass_flag ""

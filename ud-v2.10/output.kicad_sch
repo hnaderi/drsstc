@@ -3493,51 +3493,29 @@
 			)
 		)
 	)
-	(global_label "DRV2"
-		(shape input)
-		(at 115.57 130.81 180)
+	(global_label "SEL_DRV_1"
+		(shape output)
+		(at 87.63 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "205ed68c-45f5-4ae7-b0fb-75b3083a3139")
+		(uuid "28b2edac-cb46-4a6f-a13e-9eabecda7ae3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.7467 130.81 0)
+			(at 100.7751 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
-	(global_label "DRV1"
-		(shape input)
-		(at 115.57 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "38da2bd8-4945-4085-890d-493f92c9f151")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.7467 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DRV2"
+	(global_label "SEL_DRV_2"
 		(shape input)
 		(at 115.57 60.96 180)
 		(fields_autoplaced yes)
@@ -3547,9 +3525,9 @@
 			)
 			(justify right)
 		)
-		(uuid "9fd9d6bb-7c7d-4ccc-84bc-272c56fd1efe")
+		(uuid "6cf76d5d-e365-4920-a8a0-830614fc4e48")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.7467 60.96 0)
+			(at 102.4249 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3559,7 +3537,7 @@
 			)
 		)
 	)
-	(global_label "DRV1"
+	(global_label "SEL_DRV_1"
 		(shape input)
 		(at 115.57 135.89 180)
 		(fields_autoplaced yes)
@@ -3569,9 +3547,53 @@
 			)
 			(justify right)
 		)
-		(uuid "a2be00af-ebd2-4ae9-9803-ad5a3c60add0")
+		(uuid "93955279-d1ba-4f1c-90cb-fe36d403449c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.7467 135.89 0)
+			(at 102.4249 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SEL_DRV_2"
+		(shape output)
+		(at 74.93 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a031f27a-122d-4994-8ec3-b0f92bbd4162")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 61.7849 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SEL_DRV_1"
+		(shape input)
+		(at 115.57 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf98033b-0555-4781-89de-20f5ec7a54dc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.4249 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3603,20 +3625,26 @@
 			)
 		)
 	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 224.79 36.83) (xy 180.34 36.83) (xy 180.34 40.64) (xy 173.99 40.64) (xy 173.99 44.45) (xy 175.26 45.72)
-				(xy 180.34 45.72) (xy 180.34 74.93) (xy 173.99 74.93) (xy 173.99 78.74) (xy 175.26 80.01) (xy 224.79 80.01)
+	(global_label "SEL_DRV_2"
+		(shape input)
+		(at 115.57 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
-			(stroke
-				(width 0)
-				(type dash)
+			(justify right)
+		)
+		(uuid "f4bb4ebb-3f2d-48fa-b85e-a889d0a7b8fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.4249 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
 			)
-			(fill
-				(type none)
-			)
-			(uuid 3e95fef7-888e-4cfb-ab75-aa4855a6e243)
 		)
 	)
 	(rule_area
@@ -3632,7 +3660,23 @@
 			(fill
 				(type none)
 			)
-			(uuid 7f36d8ea-643d-4caf-be9e-c3b3014026ac)
+			(uuid 29a278d8-fda3-4f92-9f5a-0a2fce2d18fa)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 224.79 36.83) (xy 180.34 36.83) (xy 180.34 40.64) (xy 173.99 40.64) (xy 173.99 44.45) (xy 175.26 45.72)
+				(xy 180.34 45.72) (xy 180.34 74.93) (xy 173.99 74.93) (xy 173.99 78.74) (xy 175.26 80.01) (xy 224.79 80.01)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid e84849a0-b955-4f18-934b-63a1dbc324c6)
 		)
 	)
 	(netclass_flag ""

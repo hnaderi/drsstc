@@ -519,6 +519,12 @@
       "Net-(D1-A)": [
         "Critical"
       ],
+      "Net-(D10-A)": [
+        "Critical"
+      ],
+      "Net-(D11-K)": [
+        "Critical"
+      ],
       "Net-(D3-A)": [
         "Critical"
       ],
@@ -534,13 +540,31 @@
       "Net-(J13-Pin_2)": [
         "Power"
       ],
+      "Net-(J3-Pin_1)": [
+        "Critical"
+      ],
+      "Net-(J3-Pin_2)": [
+        "Critical"
+      ],
+      "Net-(J4-Pin_1)": [
+        "Critical"
+      ],
+      "Net-(J4-Pin_2)": [
+        "Critical"
+      ],
       "Net-(J6-Pin_1)": [
         "Critical"
       ],
       "Net-(J6-Pin_2)": [
         "Critical"
       ],
+      "Net-(Q1-D)": [
+        "Critical"
+      ],
       "Net-(Q2-D)": [
+        "Critical"
+      ],
+      "Net-(Q4-D)": [
         "Critical"
       ],
       "Net-(Q6-D)": [

@@ -1413,6 +1413,142 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Fuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2517,12 +2653,6 @@
 		(uuid "03acf1db-3188-4f27-9e66-7b954492447c")
 	)
 	(junction
-		(at 194.31 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11bc41c9-4cd3-4095-a7eb-48735d5835c2")
-	)
-	(junction
 		(at 53.34 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2595,12 +2725,6 @@
 		(uuid "79ac2e0b-80ab-4710-b90d-00414eae7fb3")
 	)
 	(junction
-		(at 180.34 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8faa6e4d-4ca6-4c44-aac5-3ecee243d06f")
-	)
-	(junction
 		(at 110.49 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2661,6 +2785,24 @@
 		(uuid "dbba076b-2bea-416c-8b3d-26eef01798a3")
 	)
 	(junction
+		(at 180.34 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e658a86c-0135-4cf1-97f0-f178b8087853")
+	)
+	(junction
+		(at 194.31 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6d85c35-4cdc-4cd1-97cc-ad01ee5cc926")
+	)
+	(junction
+		(at 177.8 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edcc5881-382b-448f-94e0-0cf35c905625")
+	)
+	(junction
 		(at 256.54 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2671,12 +2813,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3976a58-2aa9-4d41-b335-3c274cb3c2b6")
-	)
-	(junction
-		(at 187.96 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff0da6d3-aa61-4a5a-97ec-767e093ef277")
 	)
 	(wire
 		(pts
@@ -2880,16 +3016,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 30.48) (xy 194.31 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b2fc31e-d976-48d1-a5ba-7297b0eef81d")
-	)
-	(wire
-		(pts
 			(xy 45.72 33.02) (xy 45.72 29.21)
 		)
 		(stroke
@@ -2937,6 +3063,16 @@
 			(type default)
 		)
 		(uuid "755ebbac-3dd7-479d-95da-3f4822f89650")
+	)
+	(wire
+		(pts
+			(xy 177.8 30.48) (xy 180.34 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "764e19b4-2cd7-468b-8bcc-0ccd7b261b67")
 	)
 	(wire
 		(pts
@@ -3060,6 +3196,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 30.48) (xy 194.31 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae2f3133-e079-4fbc-a567-d8c0d1423881")
+	)
+	(wire
+		(pts
 			(xy 256.54 144.78) (xy 246.38 144.78)
 		)
 		(stroke
@@ -3067,16 +3213,6 @@
 			(type default)
 		)
 		(uuid "b0e73cde-7d67-49f7-9b26-4ae5efbbf89f")
-	)
-	(wire
-		(pts
-			(xy 180.34 30.48) (xy 187.96 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8a6b193-d0b4-47b4-9a31-e9f5c2d1b577")
 	)
 	(wire
 		(pts
@@ -3210,7 +3346,17 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 30.48) (xy 180.34 30.48)
+			(xy 184.15 30.48) (xy 180.34 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7425fbb-928b-44ef-be9a-e5af9da6a5ed")
+	)
+	(wire
+		(pts
+			(xy 175.26 30.48) (xy 177.8 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3416,7 +3562,7 @@
 			(fill
 				(type none)
 			)
-			(uuid c8557813-df09-4f0c-9a5e-351ccc59921a)
+			(uuid 1acec225-d8e1-4843-ad98-3242a8dc9a80)
 		)
 	)
 	(netclass_flag ""
@@ -4290,7 +4436,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 187.96 30.48 0)
+		(at 177.8 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4299,7 +4445,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d46c9c3-247e-431d-842c-d88318405cd5")
 		(property "Reference" "#FLG02"
-			(at 187.96 28.575 0)
+			(at 177.8 28.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4308,7 +4454,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 187.96 25.4 0)
+			(at 177.8 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4316,7 +4462,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 30.48 0)
+			(at 177.8 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4325,7 +4471,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 30.48 0)
+			(at 177.8 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4334,7 +4480,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 187.96 30.48 0)
+			(at 177.8 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4481,6 +4627,74 @@
 			(project "ud-v2.10"
 				(path "/e9a94271-b75b-426f-9264-76d85bad59f7/42b3a719-c268-422d-8c54-7b871bff13c5"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 187.96 30.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7296e1bf-f2d0-4257-8626-49fdecf83598")
+		(property "Reference" "F1"
+			(at 187.96 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 187.96 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_Littelfuse_395Series"
+			(at 187.96 28.702 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 187.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42cd2967-28dd-4511-8934-b59e26ee22ac")
+		)
+		(pin "2"
+			(uuid "0c328d12-6392-491c-833e-ddf9e0493c73")
+		)
+		(instances
+			(project ""
+				(path "/e9a94271-b75b-426f-9264-76d85bad59f7/42b3a719-c268-422d-8c54-7b871bff13c5"
+					(reference "F1")
 					(unit 1)
 				)
 			)

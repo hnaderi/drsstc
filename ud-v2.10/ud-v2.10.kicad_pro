@@ -540,6 +540,9 @@
       "Net-(J13-Pin_2)": [
         "Power"
       ],
+      "Net-(J2-Pin_1)": [
+        "Power"
+      ],
       "Net-(J3-Pin_1)": [
         "Critical"
       ],

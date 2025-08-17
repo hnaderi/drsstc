@@ -522,10 +522,19 @@
       "Net-(D10-A)": [
         "Critical"
       ],
+      "Net-(D10-K)": [
+        "Critical"
+      ],
       "Net-(D11-K)": [
         "Critical"
       ],
       "Net-(D3-A)": [
+        "Critical"
+      ],
+      "Net-(J11-Pin_1)": [
+        "Critical"
+      ],
+      "Net-(J11-Pin_2)": [
         "Critical"
       ],
       "Net-(J12-Pin_1)": [
@@ -565,6 +574,9 @@
         "Critical"
       ],
       "Net-(Q2-D)": [
+        "Critical"
+      ],
+      "Net-(Q3-D)": [
         "Critical"
       ],
       "Net-(Q4-D)": [

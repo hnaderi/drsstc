@@ -4780,6 +4780,12 @@
 		(uuid "98d03971-088a-4c62-b5a9-5df7c8125def")
 	)
 	(junction
+		(at 137.16 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99db706c-5b9f-4dcc-b410-ec7fb25dce45")
+	)
+	(junction
 		(at 53.34 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4930,7 +4936,7 @@
 		(uuid "fc0e56fc-8e7c-4a14-bdc4-4779cfeddbad")
 	)
 	(no_connect
-		(at 167.64 190.5)
+		(at 172.72 182.88)
 		(uuid "a5f3a120-c1cb-4b1b-bff3-94f853313674")
 	)
 	(no_connect
@@ -5076,6 +5082,16 @@
 			(type default)
 		)
 		(uuid "1069f93d-b4f1-4553-91c1-500c9d86e0a5")
+	)
+	(wire
+		(pts
+			(xy 139.7 182.88) (xy 137.16 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10b28e65-ece3-4026-b4f8-1f0cce0f55ee")
 	)
 	(wire
 		(pts
@@ -6149,7 +6165,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 190.5) (xy 109.22 190.5)
+			(xy 101.6 182.88) (xy 106.68 182.88)
 		)
 		(stroke
 			(width 0)
@@ -7023,7 +7039,7 @@
 	)
 	(global_label "INT_INPUT"
 		(shape input)
-		(at 104.14 190.5 180)
+		(at 101.6 182.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7033,7 +7049,7 @@
 		)
 		(uuid "29618daf-f189-466f-abf1-ef2094204dac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.7809 190.5 0)
+			(at 89.2409 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7353,7 +7369,7 @@
 	)
 	(global_label "INT"
 		(shape output)
-		(at 139.7 190.5 0)
+		(at 139.7 182.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7363,7 +7379,7 @@
 		)
 		(uuid "b61c0db0-1f34-4de7-b00e-22bc162c65e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.5881 190.5 0)
+			(at 145.5881 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7495,7 +7511,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 5c34000c-83b2-49fd-bed6-b68b6a2a5f89)
+			(uuid 7cafd4ef-6e4c-449c-a3e2-0f2a95a96ad0)
 		)
 	)
 	(netclass_flag ""
@@ -7734,7 +7750,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC14")
-		(at 160.02 190.5 0)
+		(at 165.1 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7743,7 +7759,7 @@
 		(fields_autoplaced yes)
 		(uuid "06a77349-d170-43a0-b90d-947088a2218b")
 		(property "Reference" "U5"
-			(at 160.02 181.61 0)
+			(at 165.1 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7751,7 +7767,7 @@
 			)
 		)
 		(property "Value" "74HC14"
-			(at 160.02 184.15 0)
+			(at 165.1 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7759,7 +7775,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 160.02 190.5 0)
+			(at 165.1 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7768,7 +7784,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-			(at 160.02 190.5 0)
+			(at 165.1 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7777,7 +7793,7 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger"
-			(at 160.02 190.5 0)
+			(at 165.1 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8182,7 +8198,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 152.4 190.5 0)
+		(at 157.48 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8191,7 +8207,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ea00b24-c107-40e8-b6aa-c9c7c6f990af")
 		(property "Reference" "#PWR046"
-			(at 152.4 194.31 0)
+			(at 157.48 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8200,7 +8216,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 149.86 189.2299 0)
+			(at 154.94 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8209,7 +8225,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 190.5 0)
+			(at 157.48 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8218,7 +8234,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 190.5 0)
+			(at 157.48 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8227,7 +8243,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 152.4 190.5 0)
+			(at 157.48 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8242,6 +8258,72 @@
 			(project ""
 				(path "/e9a94271-b75b-426f-9264-76d85bad59f7"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "202884c1-c061-436c-a2bb-3dedfb5e35aa")
+		(property "Reference" "#PWR065"
+			(at 137.16 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "639824ba-2ec7-4af6-a805-fc547818e2d5")
+		)
+		(instances
+			(project ""
+				(path "/e9a94271-b75b-426f-9264-76d85bad59f7"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -13162,6 +13244,76 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 137.16 186.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9feea448-1b82-4e4b-bfac-9943606e91fb")
+		(property "Reference" "R36"
+			(at 134.62 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 134.62 187.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 138.938 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 137.16 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b4ac7e07-84b4-4fc8-b1a6-0efd1b52dd71")
+		)
+		(pin "1"
+			(uuid "c6aee92d-4517-42ef-a14a-06ef105bff16")
+		)
+		(instances
+			(project "ud-v2.10"
+				(path "/e9a94271-b75b-426f-9264-76d85bad59f7"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 38.1 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14082,7 +14234,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC14")
-		(at 116.84 190.5 0)
+		(at 114.3 182.88 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14091,7 +14243,7 @@
 		(fields_autoplaced yes)
 		(uuid "b73c9ac4-069c-46cd-9434-6e0d84e845ab")
 		(property "Reference" "U5"
-			(at 116.84 181.61 0)
+			(at 114.3 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14099,7 +14251,7 @@
 			)
 		)
 		(property "Value" "74HC14"
-			(at 116.84 184.15 0)
+			(at 114.3 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14107,7 +14259,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 116.84 190.5 0)
+			(at 114.3 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14116,7 +14268,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-			(at 116.84 190.5 0)
+			(at 114.3 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14125,7 +14277,7 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger"
-			(at 116.84 190.5 0)
+			(at 114.3 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15745,7 +15897,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC14")
-		(at 132.08 190.5 0)
+		(at 129.54 182.88 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15754,7 +15906,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc5a0fff-daf1-4ea4-b5ba-0fa8dc3f0591")
 		(property "Reference" "U5"
-			(at 132.08 181.61 0)
+			(at 129.54 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15762,7 +15914,7 @@
 			)
 		)
 		(property "Value" "74HC14"
-			(at 132.08 184.15 0)
+			(at 129.54 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15770,7 +15922,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 132.08 190.5 0)
+			(at 129.54 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15779,7 +15931,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-			(at 132.08 190.5 0)
+			(at 129.54 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15788,7 +15940,7 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger"
-			(at 132.08 190.5 0)
+			(at 129.54 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
